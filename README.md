@@ -1,6 +1,6 @@
-#  Solving correlated super-moir´e states above a billion sites with a tensor network self-consistent method
+#  Solving correlated super-moiré states above a billion sites with a tensor network self-consistent method
 
-This repository is for the manuscript "Solving correlated super-moir´e states above a billion sites with a tensor network self-consistent method" by Yitao Sun, Marcel Niedermeier, Tiago V. C. Ant˜ao, Adolfo O. Fumega and Jose L. Lado. This repo contains:
+This repository is for the manuscript "Solving correlated super-moir´e states above a billion sites with a tensor network self-consistent method" by Yitao Sun, Marcel Niedermeier, Tiago V. C. Antão, Adolfo O. Fumega and Jose L. Lado. This repo contains:
 
 * All data generated for the spectral functions shown in the manuscript.
 * The "MPO_SCF" .jl files and relating notebook files, 2 for spatially varying on-site interaction, 2 for spatially varying hopping amplitude.
