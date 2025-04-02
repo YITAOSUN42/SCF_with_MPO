@@ -108,7 +108,7 @@ function get_density_from_Tn(Tn_list,N,fermi=0)
     
     function G_n(n)
         if n == 1
-            return acos(-fermi)
+            return acos(fermi)
         else
             return sin((n-1) * acos(fermi)) / (n-1)
         end
