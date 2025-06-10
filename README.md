@@ -15,3 +15,5 @@ Codes are fully based on julia. To use the codes, you need to install these part
 * Quantics.jl
 * TensorCrossInterpolation.jl
 * QuanticsTCI.jl
+
+We are working on the implementation of 2D systems, soon they will be out here, including square, triangle and honeycomb lattices.
