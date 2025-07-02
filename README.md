@@ -5,9 +5,10 @@
 This repository is for the manuscript "Self-consistent tensor network method for correlated super-moiré matter beyond one billion sites" by Yitao Sun, Marcel Niedermeier, Tiago V. C. Antão, Adolfo O. Fumega and Jose L. Lado. The code is still under heavy development without detailed optimization or refactorization.This repo contains:
 
 * All data generated for the spectral functions shown in the manuscript.
-* The "MPO_SCF" .jl files and relating notebook files, 2 for spatially varying on-site interaction, 2 for spatially varying hopping amplitude.
+* The MPO_SCF.jl files and relating notebook files, 2 for spatially varying on-site interaction, 2 for spatially varying hopping amplitude.
 * Notebooks for calculation of spectral functions using stochastic tracing, inclduing "random_vec_generator" and "Cal_LDOS", "Plot_LDOS" for plotting.
 * A get_function.jl with different functions used in notebooks above.
+* The 2D_lattice.jl contains code for building tb Hamiltonians for 2D lattices including square, triangle and honeycomb lattices.
 
 Codes are fully based on julia. To use the codes, you need to install these particular packages:
 
@@ -16,4 +17,4 @@ Codes are fully based on julia. To use the codes, you need to install these part
 * TensorCrossInterpolation.jl
 * QuanticsTCI.jl
 
-We are working on the implementation of 2D systems, soon they will be out here, including square, triangle and honeycomb lattices.
+
